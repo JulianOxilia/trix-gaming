@@ -1,34 +1,47 @@
 .header{
     background-color: #d8d8d8;
+    display: grid;
+    grid-template-areas: 
+    "logo buscador lupa"
+    ;
 
 }
 
 .logogt__img{
+    grid-area: logo;
     width: 176px;
     height: 104px;
 }
 .buscador__bar{
-    
+    grid-area: buscador;
+    border-radius: 10px;
     width: 1200px;
     height: 77px;
+}
+
+.lupa{
+    
 }
 /* NAVBAR */
 .navbar__text{
     display: flex;
     justify-content: space-evenly;
     text-decoration: none;
-    font-family: Poppins;
+    font-family: Outfit;
+    list-style: none;
     font-size: 36px;
-    margin-top: -30px;
+    margin-top: 10px;
     
 }
 .navbar__item-- a{
+    
     color:black;
     text-decoration: none;
     
 }
 
 /* MAIN */
+
 .main__img{
     background-size: cover;
     background-position: center;
@@ -65,13 +78,70 @@
     margin-top: 30%
 }
 
+.cuadrado{
+    display: grid;
+    justify-content: space-evenly;
+    grid-column-gap: 100px;
+    grid-template-areas: 
+        "locales llamen preguntar seguinos" 
+    
+        
+}
+
+.cuadradotext1{
+    background-color: #C4C4C4;
+    
+    width: 324px;
+    height: 155px;
+}
+
+.cuadradotext2{
+    background-color: #C4C4C4;
+    width: 324px;
+    height: 155px;
+}
+.telefono{
+    display: grid;
+    width: 77px;
+    height: 71px;
+    
+}
+
+.cuadradotext3{
+    background-color: #C4C4C4;
+    width: 324px;
+    height: 155px;
+}
+.cuadradotext4{
+    background-color: #C4C4C4;
+    width: 324px;
+    height: 155px;
+}
+
+
 /* FOOTER */
 .footer{
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 400px 200px 200px 350px;
+    grid-template-areas: 
+        "fotdir fotsug fottrab fotlegal";
     background-color: #373636;
     color: white;
     font-family: Poppins;
     font-size: 18px;
-
 }
+.footerdirec{
+   margin-left: 40%;
+}
+
+.footerlegal{
+    margin-right: 40%;
+}
+
+
+
+
+
 
 

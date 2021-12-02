@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;400;900&family=Poppins:ital,wght@0,100;1,500&display=swap" rel="stylesheet">
     <title>TrixGaming</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -13,6 +16,7 @@
     <header class="header">
         <img src="./sources/logotg.png" alt="logotg" class="logogt__img">
         <input type="button" value="Buscar productos o marcas" class="buscador__bar">
+        <img src="./sources/lupa.png" alt="lupa" class="lupa">
 
         </div>
             
@@ -20,14 +24,16 @@
 
 <!-- NAV -->
     <nav class="navbar">
-        <div class="navbar__text">
-        <p class="navbar__item--"><a href="./pages/categorias.html">Categorias</a></p>
-        <p class="navbar__item--"><a href="./pages/armatupc.html">Arma tu pc</a></p>
-        <p class="navbar__item--"><a href="./pages/pcarmadas.html">Pc Armadas</a></p>
-        <p class="navbar__item--"><a href="./pages/micuenta.html">Mi cuenta</a></p>
-        <p class="navbar__item--"><a href="./pages/ayuda.html">Ayuda</a></p>
-    
-    </div>                 
+        <div>
+            <ul class="navbar__text">
+                
+        <li class="navbar__item--"><a href="./pages/categorias.html">Categorias</a></li> 
+        <li class="navbar__item--"><a href="./pages/armatupc.html">Arma tu pc</a></li> 
+        <li class="navbar__item--"><a href="./pages/pcarmadas.html">Pc Armadas</a></li> 
+        <li class="navbar__item--"><a href="./pages/micuenta.html">Mi cuenta</a></li> 
+        <li class="navbar__item--"><a href="./pages/ayuda.html">Ayuda</a></li> 
+            </ul>
+        </div>                 
     </nav>
 
     <!-- CONTENIDO -->
@@ -37,21 +43,39 @@
         <img src="./sources/without.png" alt="without" class="without__img">
         <img src="./sources/limits.png" alt="limits" class="limits__img">
     <div class="cuadrado">
-        <div> <h3 class="cuadrado__text--">LOCALES</h3></div>
-        <div> <h3 class="cuadrado__text--">LOCALES</h3></div>
-        <div> <h3 class="cuadrado__text--">LOCALES</h3></div>
-        <div> <h3 class="cuadrado__text--">LOCALES</h3></div>
+        <div> <h3 class="cuadradotext1">LOCALES</h3></div>
+        <div> <h3 class="cuadradotext2">QUIERO QUE ME LLAMEN</h3> <img src="./sources/telofono.jpg" alt="telefono" class="telefono">  </div>
+        <div> <h3 class="cuadradotext3">QUIERO PREGUNTAR</h3></div>
+        <div> <h3 class="cuadradotext4">SEGUINOS</h3></div>
     </div>        
     </main>
 
 <!-- FOOTER -->
         
     <footer class="footer" >
-        <p>(011)59719288</p> 
-        <p>info@trixgaming.com.ar</p>
-        <p>*direccion* Capital Federal</p>
+        <div class="footerdirec">
+            <p>(011)59719288</p> 
+            <p>info@trixgaming.com.ar</p>
+            <p>*direccion* Capital Federal</p>
+        </div>
 
-        <div class="footer__sug"><p>Si tenes sugerencias o comentarios no dudes en contactarnos.</p></div>
+        <div class="footersug"><p>Si tenes sugerencias o comentarios no dudes en contactarnos.</p>
+        </div>
+
+        <div class="footertrabaja">
+            <p>Trabaja con nosotros</p>
+            <br>
+            <b><p>Completa formulario</p></b>
+
+         </div>
+
+         <div class="footerlegal">
+             <p>Aviso legal</p>
+             <p>Politica de privacidad</p>
+             <p>Politica de cookies</p>
+
+
+         </div>
         
     </footer>
 </body>
